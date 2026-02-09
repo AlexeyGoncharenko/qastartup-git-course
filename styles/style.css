@@ -1,0 +1,21 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 150px;
+    background-color: deepskyblue;
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+    border-radius: 30px;
+}
+
+.main-block-message {
+    font-size:  23px;
+}
